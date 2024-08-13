@@ -3,6 +3,15 @@
      <title>Table Tennis</title>    
   </head>
     <body>
-     
+     <script>
+       function skateboard(style, owner) {
+            this.style = style;
+            this.owner = owner;
+            this.alertOwner = function() {
+              alert(this.owner);
+            };
+       }
+       var skateboard1 = new skateboard("red", "Markus");
+     </script>
     </body> 
 </html>
