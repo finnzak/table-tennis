@@ -28,6 +28,11 @@
          ctx.fillRect(paddle.x, paddle.y paddle.width, paddle.height);
        }
       tick();
+       function draw() {
+         ctx.fillStyle = "black";
+         ctxfillRect(0, 0, 640, 480);
+         renderPaddle(player);
+         renderPaddle(ai);
      </script>
     </body> 
      </script>
