@@ -23,7 +23,11 @@
        }
        var player = new paddle(5, 200, 25, 100);
        var ai = new paddle(610, 200, 25, 100);
-       function renderPaddle
+       function renderPaddle(paddle) {
+         ctx.fillStyle = "white";
+         ctx.fillRect(paddle.x, paddle.y paddle.width, paddle.height);
+       }
+      tick();
      </script>
     </body> 
      </script>
